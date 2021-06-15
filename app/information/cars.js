@@ -18,21 +18,21 @@ const cars = [
         model: "sandero",
         year:  2019,
         price: 20000,
-        image: "img/car-motorcycle/car brand/reanult-sandero-2019.png"
+        image: "./img/car-motorcycle/car brand/reanult-sandero-2019.png"
     },
     {
         brand: "Renault",
         model: "captur",
         year:  2020,
         price: 30000,
-        image: "img/car-motorcycle/car brand/renault-captur-2020.png"
+        image: "./img/car-motorcycle/car brand/renault-captur-2020.png"
     },
     {
         brand: "Chevrolet",
         model: "camaro",
         year:  2020,
         price: 100000,
-        image: "img/car-motorcycle/car brand/chevrolet-camaro-2020.png"
+        image: "./img/car-motorcycle/car brand/chevrolet-camaro-2020.png"
     },    
     {
         brand: "Audi",
