@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="img/icon/logo.jpg">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/formStyle.css">
+    <title>Dont Walk Motorcycle</title>
+</head>
+
+<body>
+
+    <!---------------------------------------------------------->
+    <!--------------- SELECT --------------->
+    <!--------------------------------------------------------->
+    <div class="container my-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 d-flex align-items-center">
+                <div class="ms-auto text-center">
+                    <a href="/index.html">
+                        <img src="/img/logo.png" alt="logo" width="100">
+                    </a>
+                </div>
+                <div class="me-auto text-center">
+                    <h3 class="text-secondary shadow">Dont Walk!!!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row justify-content-center justify-content-md-between">
+
+            <div class="col-md-6 col-lg-3">
+                <label for="brand">Brand</label><br>
+                <select class="form-select" id="brand">
+                    <option value="">Seleccione</option>
+                    <option value="Suzuki">Suzuki</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Auteco">Auteco</option>
+                </select>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <label for="year">Year</label><br>
+                <select class="form-select" id="year">
+                    <option value="">Seleccione</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <label for="price-min">Price Min</label><br>
+                <select class="form-select" id="price-min">
+                    <option value="">Seleccione</option>
+                    <option value="10000">10.000</option>
+                    <option value="20000">20.000</option>
+                    <option value="30000">30.000</option>
+                    <option value="40000">40.000</option>
+                    <option value="50000">50.000</option>
+                    <option value="60000">60.000</option>
+                    <option value="70000">70.000</option>
+                    <option value="80000">80.000</option>
+                    <option value="90000">90.000</option>
+                    <option value="100000">100.000</option>
+                </select>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <label for="price-max">Price Max</label><br>
+                <select class="form-select" id="price-max">
+                    <option value="">Seleccione</option>
+                    <option value="10000">10.000</option>
+                    <option value="20000">20.000</option>
+                    <option value="30000">30.000</option>
+                    <option value="40000">40.000</option>
+                    <option value="50000">50.000</option>
+                    <option value="60000">60.000</option>
+                    <option value="70000">70.000</option>
+                    <option value="80000">80.000</option>
+                    <option value="90000">90.000</option>
+                    <option value="100000">100.000</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mb-5">
+        <div id="information" class="row row-cols-1 row-cols-md-2 g-4 text-center">
+
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div id="without-results" class="row">
+
+        </div>
+    </div>
+
+
+
+
+    <!--------------------------------------------------------->
+    <!--------------- MODAL-FORM --------------->
+    <!--------------------------------------------------------->
+    <div class="modal fade" id="modalForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="modalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header my-0">
+                    <button type="button" class="btn-close py-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container-fluid bgFormContainer shadow rounded modal-body">
+                    <div class="row">
+                        <div class="col bgForm d-none d-lg-block rounded py-0 my-0">
+                        </div>
+
+                        <div class="col py-0 px-5 rounded-end">
+                            <div class="text-end">
+                                <img src="/img/logo.png" alt="logo" width="50px">
+                            </div>
+                            <div>
+                                <h2 class="text-center text-light shadow rounded-pill mb-2">Request advice</h2>
+                            </div>
+                            <form id="form" action="">
+                                <div class="mb-3">
+                                    <label for="name" class="form-letter">Full name</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                    <p id="pName" class="d-none text-danger">You must enter a name with only letters</p>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="city" class="form-letter">City</label>
+                                    <input type="text" class="form-control" id="city" name="city">
+                                    <p id="pCity" class="d-none text-danger">You must place a city with only letters</p>
+                                </div class="mb-3">
+
+                                <div class="mb-3">
+                                    <label for="phone" class="form-letter">Number phone</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                    <p id="pPhone" class="d-none text-danger">You must enter numbers without letters (7
+                                        to 14 numbers)</p>
+
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-letter">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                    <p id="pEmail" class="d-none text-danger">Please provide a valid email address</p>
+                                </div>
+
+                                <div class="mb-3 d-grid mt-1">
+                                    <label for="message" class="form-letter">message</label>
+                                    <textarea style="resize: none;" class="form-control" id="message" name="message"
+                                        cols="10" rows="4"
+                                        placeholder="Tell us how we can help you. Are you interested in a car or motorcycle? Do you want to sell us your car or motorcycle? do you need maintenance?"></textarea>
+                                    <p id="pMessage" class="d-none text-danger">Minimum 30 characters maximum 2000</p>
+                                </div>
+                            </form>
+
+                            <!--Form buttons-->
+                            <div class="container-lg w-100">
+                                <div class="row justify-content-around">
+                                    <div class="col">
+                                        <button id="btnSend"
+                                            class="btn btn-outline-light border-3 w-100 my-3 rounded-pill">
+                                            <div class="row align-items-center">
+                                                <div class="col-2 d-none d-xl-block">
+                                                    <img src="/img/icon/send.png" alt="send" width="20">
+                                                </div>
+                                                <div
+                                                    class="col-12 col-lg-10 text-center py-0 fw-bolder fst-italic font-monospace">
+                                                    SEND
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button id="btnClear"
+                                            class="btn btn-outline-danger border-3 w-100 my-3 rounded-pill">
+                                            <div class="row align-items-center">
+                                                <div class="col-2 d-none d-xl-block">
+                                                    <img src="/img/icon/clear.png" alt="clear" width="20">
+                                                </div>
+                                                <div
+                                                    class="col-12 col-lg-10 text-center py-0 fw-bolder fst-italic font-monospace">
+                                                    CLEAR
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <!--------------- SCRIPTS --------------->
+    <!--------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/app/information/appMotorcycles.js"></script>
+    <script src="/app/information/motorcycles.js"></script>
+    <script src="/app/validateForm.js"></script>
+
+</body>
+
+</html>

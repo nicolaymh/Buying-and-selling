@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,700&display=swap');
+
+body{
+    background-color: #e3f2fd !important;
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.062), #e3f2fd )
+}
+
+.carousel-item{
+    background-color: black;
+}
+.carousel-item img{
+    opacity: .8;
+}
+
+.purchase-sale{
+    font-family: 'Lobster', cursive;
+    color: blue;
+    font-weight: bolder;
+    font-size: 50px;
+    flex-wrap: nowrap;    
+    border: 1px solid darkred;
+    line-height: 60px;
+    padding: 30px 11px !important;
+}
+
+.cardTitle{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-image: radial-gradient(circle at 62.28% -19.64%, #4be0ff 0, #53c7f9 25%, #55add8 50%, #5494b8 75%, #507d99 100%);
+}
+.cardBorder{
+    transition: all ease-in-out 0.2s;    
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: #424949 !important;         
+}
+.cardBorder:hover{
+    transform: scale(1.08);
+    background-color: #111010 !important;    
+}
+
+.card-body a{ 
+    font-size: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.card-body a:hover{ background-color: blue; }

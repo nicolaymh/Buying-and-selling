@@ -1,0 +1,19 @@
+.bgForm{
+    background: url(/img/form.png);
+    background-position: center center;
+    background-size: cover;
+           
+}
+.bgFormContainer{
+    background-color: rgb(136, 134, 19);
+}
+.form-letter{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    color: white;    
+}
+
+.btnState{
+   background-color: #ff4b78 !important;
+   opacity: .1 !important;
+}
