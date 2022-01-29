@@ -1,4 +1,4 @@
-# BUYING AND SELLING CARS AND MOTORCYCLES :car: :motorbike:
+# BUYING AND SELLING CARS AND MOTORCYCLES :car: :motorcycle:
 
 ## web page of a car and motorcycle sale made with html, css, javascript and bootstrap v5.1.3.
 
