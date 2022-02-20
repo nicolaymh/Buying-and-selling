@@ -16,7 +16,7 @@
 
 ---
 
-**_[CAR.HTML](https://happy-gates-0f2787.netlify.app/car.html 'CAR')_**
+**_[CAR.HTML](https://buyandsell.netlify.app/car.html 'CAR')_**
 
 <div style = 'text-align:center'>
 <img src="./img/imagesReadme/carScreen.PNG" alt="JuveYell" width="300px">
@@ -24,7 +24,7 @@
 
 ---
 
-**_[MOTTORCYCLE](https://buyandsell.netlify.app/ 'MOTTORCYCLE')_**
+**_[MOTTORCYCLE](https://buyandsell.netlify.app/motorcycle.html 'MOTTORCYCLE')_**
 
 <div style = 'text-align:center'>
 <img src="./img/imagesReadme/motorbikeScreen.PNG" alt="JuveYell" width="300px">
