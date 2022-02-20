@@ -8,7 +8,7 @@
 
 ---
 
-**_[INDEX.HTML](https://happy-gates-0f2787.netlify.app/index.html 'INDEX')_**
+**_[INDEX.HTML](https://buyandsell.netlify.app/ 'INDEX')_**
 
 <div style = 'text-align:center'>
 <img src="./img/imagesReadme/indexScreen.PNG" alt="JuveYell" width="300px">
@@ -24,7 +24,7 @@
 
 ---
 
-**_[MOTTORCYCLE](https://happy-gates-0f2787.netlify.app/motorcycle.html 'MOTTORCYCLE')_**
+**_[MOTTORCYCLE](https://buyandsell.netlify.app/ 'MOTTORCYCLE')_**
 
 <div style = 'text-align:center'>
 <img src="./img/imagesReadme/motorbikeScreen.PNG" alt="JuveYell" width="300px">
